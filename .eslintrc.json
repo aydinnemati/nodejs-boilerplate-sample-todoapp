@@ -13,9 +13,6 @@
         "no-console": "error"
     },
     "ignorePatterns": [
-      "node_modules",
-      "build",
-      "dist",
-      "public"
+      "node_modules"
     ]
 }
