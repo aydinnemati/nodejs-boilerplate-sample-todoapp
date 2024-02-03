@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-boilerplate-sample-todoapp",
+  "version": "1.0.0",
+  "description": "its a boilerplate for nodeJS applications with a sample simple todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp.git"
+  },
+  "author": "Aydin Nemati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp/issues"
+  },
+  "homepage": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp#readme"
+}
