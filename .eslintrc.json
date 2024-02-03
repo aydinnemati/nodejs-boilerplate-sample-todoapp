@@ -14,5 +14,10 @@
     },
     "ignorePatterns": [
       "node_modules"
+    ],
+    "overrides": [
+        {
+          "files": [ "src/**/*.js", "src/*.js" ]
+        }
     ]
 }
