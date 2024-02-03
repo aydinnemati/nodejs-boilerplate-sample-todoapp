@@ -1,27 +1,35 @@
 {
-  "name": "nodejs-boilerplate-sample-todoapp",
-  "version": "1.0.0",
-  "description": "its a boilerplate for nodeJS applications with a sample simple todo app",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp.git"
-  },
-  "author": "Aydin Nemati",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp/issues"
-  },
-  "homepage": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp#readme",
-  "devDependencies": {
-    "nodemon": "^3.0.3"
-  },
-  "dependencies": {
-    "fastify": "^4.26.0"
-  }
+    "name": "nodejs-boilerplate-sample-todoapp",
+    "version": "1.0.0",
+    "description": "its a boilerplate for nodeJS applications with a sample simple todo app",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "nodemon index",
+        "format:check": "prettier --check .",
+        "format:write": "prettier --write .",
+        "lint:check": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp.git"
+    },
+    "author": "Aydin Nemati",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp/issues"
+    },
+    "homepage": "https://github.com/aydinnemati/nodejs-boilerplate-sample-todoapp#readme",
+    "devDependencies": {
+        "eslint": "^8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "nodemon": "^3.0.3",
+        "prettier": "^3.2.4"
+    },
+    "dependencies": {
+        "fastify": "^4.26.0"
+    }
 }
